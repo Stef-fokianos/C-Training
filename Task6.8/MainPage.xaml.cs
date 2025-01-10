@@ -6,6 +6,14 @@ using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
 
+//Άσκηση 6.8:
+//Δημιουργήστε ένα mobile application με .NET MAUI. Το συγκεκριμένο application να είναι ένα port της εφαρμογής φαγητού που τροποποιήσατε για την άσκηση 3.8
+//Δεν χρειάζεται να υπάρχει “Έξοδος” από την εφαρμογή
+//Δεν χρειάζεται να εισάγει κείμενο ο χρήστης
+//Το μενού πρέπει να εμφανίζεται με collection view, στο οποίο ο χρήστης θα επιλέγει από τη λίστα ποιο φαγητό θέλει να παραγγείλει
+//Πρέπει να υπάρχει ένα κουμπί “Cancel” το οποίο θα ακυρώνει την προετοιμασία φαγητού, όταν το φαγητό ετοιμάζεται. Το κουμπί πρέπει να κρύβεται όταν δεν υπάρχει φαγητό που προετοιμάζεται
+//Τα μηνύματα που θα εμφανίζονται στον χρήστη να είναι τα ίδια που εμφανίζονται στο console application, απλά τώρα θα πρέπει να εμφανίζονται σε ένα Label κάτω από το collection view
+
 namespace Task6._8
 {
     public partial class MainPage : ContentPage
@@ -52,7 +60,7 @@ namespace Task6._8
 
             //Order Pressed
             statusLabel.Text = "Your meal is now being prepared.";
-            Debug.WriteLine("Order is pressed.");
+            //Debug.WriteLine("Order is pressed.");
 
             bool isPrepared = await meal.PrepareMealAsync(cancellationTokenSource.Token);
 
@@ -63,7 +71,7 @@ namespace Task6._8
                 collectButton.IsVisible = true;
                 statusLabel.Text = "Your meal is ready.";
 
-                Debug.WriteLine("Meal is ready.");
+                //Debug.WriteLine("Meal is ready.");
             }
         }
 
@@ -87,7 +95,7 @@ namespace Task6._8
                 statusLabel.Text = "Meal preparation was canceled.";
                 lb.ClearStatusLabel(statusLabel);
 
-                Debug.WriteLine("Cancel is pressed.");
+                //Debug.WriteLine("Cancel is pressed.");
             }
         }
 
@@ -108,7 +116,7 @@ namespace Task6._8
             statusLabel.Text = "Thank you, enjoy!";
             lb.ClearStatusLabel(statusLabel);
 
-            Debug.WriteLine("Collect is pressed.");
+            //Debug.WriteLine("Collect is pressed.");
         }
     }
 }
