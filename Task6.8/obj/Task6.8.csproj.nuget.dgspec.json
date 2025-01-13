@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sf319\\Documents\\CSharp-Training\\Task6.8\\Task6.8.csproj": {}
+    "C:\\Users\\sf319\\Desktop\\Task6.8\\Task6.8\\Task6.8.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sf319\\Documents\\CSharp-Training\\Task6.8\\Task6.8.csproj": {
+    "C:\\Users\\sf319\\Desktop\\Task6.8\\Task6.8\\Task6.8.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sf319\\Documents\\CSharp-Training\\Task6.8\\Task6.8.csproj",
+        "projectUniqueName": "C:\\Users\\sf319\\Desktop\\Task6.8\\Task6.8\\Task6.8.csproj",
         "projectName": "Task6.8",
-        "projectPath": "C:\\Users\\sf319\\Documents\\CSharp-Training\\Task6.8\\Task6.8.csproj",
+        "projectPath": "C:\\Users\\sf319\\Desktop\\Task6.8\\Task6.8\\Task6.8.csproj",
         "packagesPath": "C:\\Users\\sf319\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sf319\\Documents\\CSharp-Training\\Task6.8\\obj\\",
+        "outputPath": "C:\\Users\\sf319\\Desktop\\Task6.8\\Task6.8\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

@@ -20,10 +20,8 @@ namespace Task6._8
             {
                 new MenuItem("Pizza", "Margarita"),
                 new MenuItem("Pizza", "Special"),
-                new MenuItem("Pizza", "Pepperoni"),
                 new MenuItem("Burger", "Cheeseburger"),
                 new MenuItem("Burger", "Bacon Cheese"),
-                new MenuItem("Burger", "Crispy Chicken"),
                 new MenuItem("Pasta", "Napolitana"),
                 new MenuItem("Pasta", "Carbonara")
             };
